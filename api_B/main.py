@@ -17,3 +17,5 @@ def get_weather(city: str):
     
     data = weather_data[city_key]
     return {"city": city.replace(" ", " "), "temp": data["temp"], "unit": data["unit"]}
+
+print("API B is running on port 8001")
